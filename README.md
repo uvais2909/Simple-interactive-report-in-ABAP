@@ -47,12 +47,12 @@ To trigger this event, we have to tell the system that a page will contain 10 re
 To do this, in the first line we have to use keyword LINE-COUNT <Number of records>.
 Check the syntax from file.
 
-#RESULT
+# RESULT
 ![image](https://user-images.githubusercontent.com/98871199/206196686-b1c82a66-280a-4b6e-8766-0ddbd1caae8c.png)
 
 ![image](https://user-images.githubusercontent.com/98871199/206196795-ffe47c69-33e5-4dcf-baa9-5cafcf1e9b50.png)
 
-#Clicked on a material number
+# Clicked on a material number
 ![image](https://user-images.githubusercontent.com/98871199/206197010-7c1b0b5b-4b32-44a8-aada-75e88f8413ce.png)
 
 NOTE: I have used GET CURSOR FIELD keyword to store the clicked fields name. You can use IF ELSE statement to display different outputs like
