@@ -44,8 +44,12 @@ I have created a subroutine which is fetching MAKTX : material description, SPRA
 ## END-OF-PAGE
 This event acts as footer for a page. Here i have used a system variable SY-PAGNO to display the current page number.
 To trigger this event, we have to tell the system that a page will contain 10 records or 20 records.
-To do this, in the first line we have to use keyword LINE-COUNT <Number of records>.
-Check the syntax from file.
+To do this, in the first line we have to use keyword 
+```
+LINE-COUNT <Number of records>.
+```
+
+* Check the syntax from file.
 
 # RESULT
 ![image](https://user-images.githubusercontent.com/98871199/206196686-b1c82a66-280a-4b6e-8766-0ddbd1caae8c.png)
@@ -57,9 +61,9 @@ Check the syntax from file.
 
 NOTE: I have used GET CURSOR FIELD keyword to store the clicked fields name. You can use IF ELSE statement to display different outputs like
 ```
-IF VAR = 'MATNR'.
+IF lv_var = 'MATNR'.
 do someting....
-ELSEIF VAR = 'MBRSH'.
+ELSEIF lv_var = 'MBRSH'.
 do something.....
 ENDIF.
 ```
