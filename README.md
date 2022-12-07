@@ -4,7 +4,7 @@ A simple interactive report using some reporting events in ABAP.
 Hi everyone, we will see that how can we create a simple interactive report in ABAP.
 As we know that reports are the one of most important parts for a business. SAP has provided many libraries like REUSE to make reports and also we have object oriented approches to make reports easily but for now, we will only focus on some reporting events and how can we make our report interactive.
 
-First create an executable program using SE38.
+* First create an executable program using SE38.
 
 ## Create a structure, Internal table and work area.
 First we have to do the declarations. I have created a structure type named TY_MARA with the fields:
@@ -56,10 +56,12 @@ Check the syntax from file.
 ![image](https://user-images.githubusercontent.com/98871199/206197010-7c1b0b5b-4b32-44a8-aada-75e88f8413ce.png)
 
 NOTE: I have used GET CURSOR FIELD keyword to store the clicked fields name. You can use IF ELSE statement to display different outputs like
+```
 IF VAR = 'MATNR'.
 do someting....
 ELSEIF VAR = 'MBRSH'.
 do something.....
 ENDIF.
+```
 
 Thanks! 
