@@ -8,12 +8,12 @@ First create an executable program using SE38.
 
 ## Create a structure, Internal table and work area.
 First we have to do the declarations. I have created a structure type named TY_MARA with the fields:
-1.matnr   (MATERIAL NUMBER)
-2.mbrsh   (INDUSTRY SECTOR)
-3.mtart   (MATERIAL TYPE)
-4.ersda   (CREATED ON)
-5.ernam   (PERSON WHO CREATED THE OBJECT)
-6.matkl   (MATERIAL GROUP)
+* matnr   (MATERIAL NUMBER)
+* mbrsh   (INDUSTRY SECTOR)
+* mtart   (MATERIAL TYPE)
+* ersda   (CREATED ON)
+* ernam   (PERSON WHO CREATED THE OBJECT)
+* matkl   (MATERIAL GROUP)
 
 MARA is the table which has data for these fields.
 
